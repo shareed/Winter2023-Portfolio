@@ -113,7 +113,7 @@
 
 /* opened menu */
 .mobile-label .mobile-input:checked + .menu {
-    box-shadow: 0 0 0 100vw #FFFFFF, 0 0 0 100vh #FFFFFF;
+    box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
     border-radius: 0;  
 }
 
@@ -162,12 +162,15 @@
 
 .mobile-label a {
     border: .1rem solid #6031CA;
-    padding-bottom: 1em;
-    margin-bottom: 1rem;
+    padding: 1em 0;
+    margin-bottom: .5rem;
     display: block;
     color: #6031CA;
     font-size: 2rem;
     text-decoration: none;
     text-align: center;
+    /* -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777; */
+          box-shadow: 0 10px 6px -6px #6031CA;
     
 }
