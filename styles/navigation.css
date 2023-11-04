@@ -51,21 +51,24 @@
     }
 }
 
+/* open and close menu background */
 .mobile-label .menu {
     position: absolute;
-    left: -100px;
-    top: -100px;
+    left: -10rem;
+    top: -10rem;
     z-index: 100;
     width: 20rem;
     height: 20rem;
-    background: #FFF;
+    background: #FFFFFF;
     border-radius: 50% 50% 50% 50%;
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
-    box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
+    box-shadow: 0 0 0 0 #FFFFFF, 0 0 0 0 #FFFFFF;
     cursor: pointer;
 }
-  
+
+/* the hamburger menu icon turns into the "X"/closing icon */
+/* icon to open and close menu: middle line */
 .mobile-label .hamburger {
     position: absolute;
     top: 135px;
@@ -79,8 +82,11 @@
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
 }
-  
-.mobile-label .hamburger:after, .mobile-label .hamburger:before {
+
+/* icon to open and close menu, to and bottom lines */
+/* .hamburger:before: top line */
+/* .hamburger:after: bottom line */
+.mobile-label .hamburger:after, .mobile-label .hamburger:before  {
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     content: "";
@@ -90,11 +96,13 @@
     height: 100%;
     background: #6031CA;
 }
-  
+
+/* icon to open and close menu */
 .mobile-label .hamburger:before { 
     top: -10px; 
 }
-  
+
+/* icon to open and close menu */
 .mobile-label .hamburger:after { 
     bottom: -10px; 
 }
@@ -102,17 +110,20 @@
 .mobile-label .mobile-input { 
     display: none; 
 }
-  
+
+/* opened menu */
 .mobile-label .mobile-input:checked + .menu {
-    box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
+    box-shadow: 0 0 0 100vw #FFFFFF, 0 0 0 100vh #FFFFFF;
     border-radius: 0;  
 }
-  
+
+/* position of "X" icon  */
 .mobile-label .mobile-input:checked + .menu .hamburger {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-  
+
+/* position of "X" icon  */
 .mobile-label .mobile-input:checked + .menu .hamburger:after {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -120,7 +131,7 @@
 }
   
 .mobile-label .mobile-input:checked + .menu .hamburger:before{
-    -webkit-transform: rotate(90deg);
+    -webkit-transform: rotate(190deg);
     transform: rotate(90deg);
     top: 0;
 }
@@ -129,6 +140,7 @@
     opacity: 1;
 }
 
+/* Navigation */
 .mobile-menu-nav{
     width: 100%;
 }
@@ -137,9 +149,9 @@
   z-index: 200;
   position: absolute;
   top: 25%;
-  left: 30.5%;
-  -webkit-transform: translate(-20%, -35.5%);/*  keeps text in correct position */
-  transform: translate(-20%, -35.5%);
+  left: 20.5%;
+  -webkit-transform: translate(-20%, -20.5%);/*  keeps text in correct position */
+  transform: translate(-20%, -20.5%);
   opacity: 0; /* makes the text no visiable */
   -webkit-transition: .25s .10s ease-in-out;   /* makes text visiable/not visiable when menu is clicked */
   transition: .25s .10s ease-in-out;
@@ -152,5 +164,6 @@
     color: #6031CA;
     font-size: 2rem;
     text-decoration: none;
+    text-align: center;
     
 }
