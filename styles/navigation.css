@@ -97,12 +97,12 @@
     background: #6031CA;
 }
 
-/* icon to open and close menu */
+/* icon to open menu: top line position */
 .mobile-label .hamburger:before { 
     top: -10px; 
 }
 
-/* icon to open and close menu */
+/* icon to open menu:bottom line position */
 .mobile-label .hamburger:after { 
     bottom: -10px; 
 }
@@ -117,19 +117,20 @@
     border-radius: 0;  
 }
 
-/* position of "X" icon  */
+/* position of hamburger icon when clicked: middle line will not be moved  */
 .mobile-label .mobile-input:checked + .menu .hamburger {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
-/* position of "X" icon  */
+/* position of "X" icon: bottom line of hamburger menu goes into the same position as middle line  */
 .mobile-label .mobile-input:checked + .menu .hamburger:after {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     bottom: 0;
 }
-  
+
+/* position of "X" icon: top line of hamburger menu  */
 .mobile-label .mobile-input:checked + .menu .hamburger:before{
     -webkit-transform: rotate(190deg);
     transform: rotate(90deg);
@@ -137,11 +138,12 @@
 }
   
 .mobile-label .mobile-input:checked + .menu + .mobile-menu-nav{ 
-    opacity: 1;
+    opacity: 1; /* makes the navigation visiable when menu is opened */
 }
 
 /* Navigation */
 .mobile-menu-nav{
+    margin: auto;
     width: 100%;
 }
 
@@ -149,17 +151,19 @@
   z-index: 200;
   position: absolute;
   top: 25%;
-  left: 20.5%;
-  -webkit-transform: translate(-20%, -20.5%);/*  keeps text in correct position */
-  transform: translate(-20%, -20.5%);
+  left: 20%;
+  -webkit-transform: translate(-20%, -20%);/*  keeps text in correct position */
+  transform: translate(-20%, -20%);
   opacity: 0; /* makes the text no visiable */
   -webkit-transition: .25s .10s ease-in-out;   /* makes text visiable/not visiable when menu is clicked */
   transition: .25s .10s ease-in-out;
+ 
 }
 
 .mobile-label a {
-    border: 5px solid red;
-    margin-bottom: 1em;
+    border: .1rem solid #6031CA;
+    padding-bottom: 1em;
+    margin-bottom: 1rem;
     display: block;
     color: #6031CA;
     font-size: 2rem;
