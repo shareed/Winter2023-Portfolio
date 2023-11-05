@@ -44,7 +44,7 @@
     }
 }
 
-/* Hamburger menu for mobile */
+/* Hamburger menu for mobile-------------------------------------------------------- */
 @media screen and (min-width: 621px) {
     .mobile-nav{
         display: none;
@@ -141,17 +141,20 @@
     opacity: 1; /* makes the navigation visiable when menu is opened */
 }
 
-/* Navigation */
+
+
+
+/* Mobile Navigation: TOP----------------------------- */
 .mobile-menu-nav{
     margin: auto;
-    width: 100%;
+    width: 95%;
 }
 
 .mobile-label .mobile-menu-nav{
   z-index: 200;
   position: absolute;
-  top: 25%;
-  left: 20%;
+  top: 20%;
+  left: 21.5%;
   -webkit-transform: translate(-20%, -20%);/*  keeps text in correct position */
   transform: translate(-20%, -20%);
   opacity: 0; /* makes the text no visiable */
@@ -160,10 +163,10 @@
  
 }
 
-.mobile-label a {
+.mobile-menu-nav-item {
     border: .1rem solid #6031CA;
     padding: 1em 0;
-    margin-bottom: .5rem;
+    margin-bottom: .7rem;
     display: block;
     color: #6031CA;
     font-size: 2rem;
@@ -172,5 +175,54 @@
     /* -webkit-box-shadow: 0 10px 6px -6px #777;
      -moz-box-shadow: 0 10px 6px -6px #777; */
           box-shadow: 0 10px 6px -6px #6031CA;
-    
 }
+
+/* Mobile Bottom Nav Area----------------------------- */
+.mobile-label .mobile-input:checked + .menu + .mobile-menu-nav + .mobile-bottom-area{ 
+    opacity: 1; /* makes the navigation visiable when menu is opened */
+}
+
+.mobile-label .mobile-bottom-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 5px solid red; */
+    z-index: 200;
+    position: absolute;
+    top: 62%;
+    /* left: 53%; */
+   
+    opacity: 0; /* makes the text no visiable */
+    -webkit-transition: .25s .10s ease-in-out;   /* makes text visiable/not visiable when menu is clicked */
+    transition: .25s .10s ease-in-out;
+}
+
+.mobile-headshot img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
+    -webkit-border-radius: 10rem;
+    -moz-border-radius: 10rem;
+}
+
+.mobile-social-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+
+    width: 20%;
+}
+.mobile-social-nav-item {
+    color: #6031CA;
+    font-size: 2rem;
+    
+
+}
+
+
+
+
+
+
+
