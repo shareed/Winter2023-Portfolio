@@ -1,4 +1,4 @@
-/* Top Navigation Area */
+/* Top Navigation Area, displayed non until 621px */
 .top-header{
     width: auto;
     display: flex;
@@ -40,41 +40,9 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 620px) {
-    .top-header{
-        display: none;
-    }
-}
 
-@media screen and (max-width: 920px) {
-    .top-header{
-        font-size: 1rem;
-    }
 
-    .menu-nav {
-        display: flex;
-        justify-content: space-between;
-        width:60%;
-    }
-    
-    .social-nav {
-        display: flex;
-        justify-content: space-between;
-        width: 5%;
-    
-    }
-}
 
-@media screen and (max-width: 1220px) {
-    .menu-nav {
-        width:50%;
-    }
-    
-    .social-nav {
-        width: 5%;
-    }
-    
-}
 
 
 

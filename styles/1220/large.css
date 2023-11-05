@@ -1,0 +1,10 @@
+@media screen and (max-width: 1220px) {
+    .menu-nav {
+        width:50%;
+    }
+    
+    .social-nav {
+        width: 5%;
+    }
+    
+}

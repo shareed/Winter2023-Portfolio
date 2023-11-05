@@ -1,9 +1,4 @@
 /* Hamburger menu for mobile-------------------------------------------------------- */
-@media screen and (min-width: 621px) {
-    .mobile-display{
-        display: none;
-    }
-}
 
 /* open and close menu background */
 .mobile-label .menu {
@@ -93,6 +88,7 @@
   
 .mobile-label .mobile-input:checked + .menu + .mobile-menu-nav{ 
     opacity: 1; /* makes the navigation visiable when menu is opened */
+    display: block;
 }
 
 
@@ -109,6 +105,7 @@
   position: absolute;
   top: 20%;
   left: 21.5%;
+  display: none;
   -webkit-transform: translate(-20%, -20%);/*  keeps text in correct position */
   transform: translate(-20%, -20%);
   opacity: 0; /* makes the text no visiable */
@@ -133,6 +130,7 @@
 /* Mobile Bottom Nav Area----------------------------- */
 .mobile-label .mobile-input:checked + .menu + .mobile-menu-nav + .mobile-bottom-area{ 
     opacity: 1; /* makes the navigation visiable when menu is opened */
+    display: block;
 }
 
 .mobile-label .mobile-bottom-area {
@@ -140,12 +138,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    display: none;
     z-index: 200;
     position: absolute;
-    top: 48%;
-    left: 48%;
-    -webkit-transform: translate(-48%, 48%);/*  keeps text in correct position */
-    transform: translate(-48%, 48%);
+    top: 42%;
+    left: 73%;
+    -webkit-transform: translate(-42%, 73%);/*  keeps text in correct position */
+    transform: translate(-42%, 73%);
     opacity: 0; /* makes the text no visiable */
     -webkit-transition: .35s .10s ease-in-out;   /* makes text visiable/not visiable when menu is clicked */
     transition: .35s .10s ease-in-out;
@@ -175,8 +174,9 @@
 .mobile-social-nav{
     display: flex;
     justify-content: space-between;
-    margin-top: .5rem;
+    margin-top: 3rem;
     width: 15%;
+    margin-left: 6rem;
 }
 
 .mobile-social-nav-item {
@@ -184,14 +184,20 @@
     font-size: 2rem;
 }
 
+
+.mobile-main{
+    /* max-width: 50%; */
+}
+
 .mobile-img{
     opacity: 20%;
     position: absolute;
     left: 0;
     top: 15%;
-    width: 100%;
-    height: auto;
-    padding-right: 70rem;
+    height: 100%;
+    /* max-width: 50%;
+    
+    padding-right: 70rem; */
 }
 
 .mobile-text{
