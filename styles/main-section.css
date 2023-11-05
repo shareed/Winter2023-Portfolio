@@ -1,0 +1,104 @@
+/* .main-section-sologan{
+    border: 5px solid red;
+    font-family: "Agbalumo";
+    font-size: 10rem;
+    display: flex;
+    align-self: flex-end;
+    width: 50%;
+    float: right;
+    margin-top: 10rem;
+    padding-bottom: 10rem;
+} */
+
+/* #think{
+    padding-bottom: 2rem;
+}
+
+#design{
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+}
+
+#create{
+    padding-left: 10rem;
+    padding-bottom: 2rem;
+}
+
+#repeat{
+    padding-left: 15rem;
+    padding-bottom: 2rem;
+} */
+
+/* .main-img{
+    opacity: 20%;
+} */
+.main-section{
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.main-img{
+    opacity: 20%;
+    position: absolute;
+    left: 0;
+    top: -25%;
+    width: 50%;
+    height: auto;
+    padding-right: 70rem;
+}
+
+.main-text{
+    padding-left: 45rem;
+    padding-top: 20rem;
+    width: 50%;
+    position: relative;
+}
+
+.top-text{
+    padding-left: 10rem;
+    padding-top: 10rem;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+
+.my-name{
+    font-size: 5rem;
+    font-family: "Agbalumo";
+    background: -webkit-linear-gradient(#eee, #6031CA);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sologan-text{
+    padding-left: 15rem;
+    font-family: "Agbalumo";
+    background: -webkit-linear-gradient(#eee, #6031CA);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5rem;
+}
+
+
+.bottom-text{
+    padding-left: 15rem;
+    font-size: 3rem;
+    line-height: 1.6;
+}
+
+.think {
+    /*  */
+}
+
+.design {
+    /* padding-left: 31rem; */
+}
+
+.create {
+    /* padding-left: 36rem; */
+}
+
+.repeat {
+    /* padding-left: 41rem; */
+}
