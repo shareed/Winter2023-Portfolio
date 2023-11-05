@@ -1,84 +1,6 @@
-/* Top Navigation Area */
-.top-header{
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    font-weight: bolder;
-    font-size: 1.5rem;
-    padding: 2rem 1.5rem;
-    border-bottom: .2rem solid rgb(96, 49, 202, 0.4);
-    margin-bottom: 2rem;
-}
-
-.top-header a{
-    text-decoration: none;
-}
-
-.top-header a:hover{
-    transform: scale(1.5);
-    color: #6031CA;
-}
-
-.menu-nav {
-    display: flex;
-    justify-content: space-between;
-    width:40%;
-}
-
-.social-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 3%;
-
-}
-
-.active {
-    margin-top: -.5rem;
-    padding: .5rem;
-    border: .1rem solid #6031CA;
-    border-radius: 10px;
-    color: #FFFFFF;
-}
-
-@media screen and (max-width: 620px) {
-    .top-header{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 920px) {
-    .top-header{
-        font-size: 1rem;
-    }
-
-    .menu-nav {
-        display: flex;
-        justify-content: space-between;
-        width:60%;
-    }
-    
-    .social-nav {
-        display: flex;
-        justify-content: space-between;
-        width: 5%;
-    
-    }
-}
-
-@media screen and (max-width: 1220px) {
-    .menu-nav {
-        width:50%;
-    }
-    
-    .social-nav {
-        width: 5%;
-    }
-    
-}
-
 /* Hamburger menu for mobile-------------------------------------------------------- */
 @media screen and (min-width: 621px) {
-    .mobile-nav{
+    .mobile-display{
         display: none;
     }
 }
@@ -192,7 +114,6 @@
   opacity: 0; /* makes the text no visiable */
   -webkit-transition: .25s .10s ease-in-out;   /* makes text visiable/not visiable when menu is clicked */
   transition: .25s .10s ease-in-out;
- 
 }
 
 .mobile-menu-nav-item {
@@ -228,7 +149,6 @@
     opacity: 0; /* makes the text no visiable */
     -webkit-transition: .35s .10s ease-in-out;   /* makes text visiable/not visiable when menu is clicked */
     transition: .35s .10s ease-in-out;
-
 }
 
 .mobile-headshot img {
@@ -237,7 +157,6 @@
     border-radius: 10rem;
     -webkit-border-radius: 10rem;
     -moz-border-radius: 10rem;
-    
 }
 
 .mobile-headshot::after {
@@ -250,24 +169,68 @@
     border-radius: 10rem;
     -webkit-border-radius: 10rem;
     -moz-border-radius: 10rem;
-    box-shadow: inset 0 0 2rem 1px #6031CA;
+    /* box-shadow: inset 0 0 2rem 1px #6031CA; */
 }
+
 .mobile-social-nav{
     display: flex;
     justify-content: space-between;
     margin-top: .5rem;
     width: 15%;
 }
+
 .mobile-social-nav-item {
     color: #6031CA;
     font-size: 2rem;
-    
+}
 
+.mobile-img{
+    opacity: 20%;
+    position: absolute;
+    left: 0;
+    top: 15%;
+    width: 100%;
+    height: auto;
+    padding-right: 70rem;
+}
+
+.mobile-text{
+    /* padding-left: 5rem; */
+    /* padding-top: 5rem; */
+    width: 95%;
+    position: relative;
+}
+
+.mobile-top-text{
+    padding-left: 3rem;
+    padding-top: 25rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.mobile-my-name{
+    font-size: 5rem;
+    font-family: "Agbalumo";
+    background: -webkit-linear-gradient(#eee, #6031CA);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mobile-sologan-text{
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+    font-family: "Agbalumo";
+    background: -webkit-linear-gradient(#eee, #6031CA);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5rem;
 }
 
 
-
-
-
-
-
+.mobile-bottom-text{
+    padding-left: 5rem;
+    font-size: 2rem;
+    line-height: 1.6;
+}
