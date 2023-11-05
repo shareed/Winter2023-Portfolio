@@ -8,3 +8,7 @@ Nymph Design 2023 Portfolio
 * CSS
 * JavaScript
 * Responsive Design
+
+### Fixes
+- the transition for the image for the mobile nav
+- change github link
