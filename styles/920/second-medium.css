@@ -37,7 +37,6 @@
 
 @media screen and (min-width: 1071px) and (max-width: 5000px) {
     .main-text{
-        border: 5px solid red;
         width: 80%;
         margin-top: 18rem;
         margin-left: 10rem;
@@ -89,8 +88,8 @@
 
 @media screen and (min-width: 1256px) and (max-width: 1440px) {
     .main-img{
-        top: -60%;
-        width: 65%;
+        top: -35%;
+        width: 70%;
     }
   
 }

@@ -1,13 +1,17 @@
 /* Top Navigation Area, displayed non until 621px */
 .top-header{
-    width: auto;
+    position: fixed;
+    top: 2%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     font-weight: bolder;
     font-size: 1rem;
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
     border-bottom: .2rem solid rgb(96, 49, 202, 0.4);
     margin-bottom: 2rem;
+    background-color: #000;
+    z-index: 200;
 }
 
 .top-header a{
