@@ -7,7 +7,7 @@
 
 
 .main-img{
-    z-index: 100;
+    /* z-index: 100; */
     opacity: 20%;
     position: absolute;
     left: 10%;
