@@ -1,0 +1,22 @@
+/* Laptop */
+@media screen and (min-width: 1536px) {
+    .top-header{
+        font-size: 1.5rem;
+    }
+    .menu-nav {
+        margin-right: 3rem;
+        width: 30%;
+    }
+}
+
+
+/* BIG MONITOR */
+/* @media screen and (min-width: 1920px) {
+    .top-header{
+        font-size: 1.5rem;
+    }
+    .menu-nav {
+        margin-right: 3rem;
+        width: 30%;
+    }
+} */

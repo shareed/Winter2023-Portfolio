@@ -1,23 +1,26 @@
-/* Main menu-------------------------------------------------------- */
-
-@media screen and (max-width: 621px) {
-    .top-header{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 621px) {
-    .main-section{
-        display: none;
-    }
-}
-
 /* Hamburger menu for mobile-------------------------------------------------------- */
 
-
+/* at 621 and above */
 @media screen and (min-width: 621px) {
     .mobile-display{
         display: none;
     }
 }
+
+
+/* Main menu-------------------------------------------------------- */
+/* at 620 and below */
+@media screen and (max-width: 620px) {
+    .top-header{
+        display: none;
+    }
+
+    .main-section{
+        display: none;
+    }
+}
+
+
+
+
 
