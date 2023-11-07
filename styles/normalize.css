@@ -41,29 +41,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
- 
 a {
 	text-decoration: none;
 	color: #FFFFFF;
 }
-
 a:hover{
     color: #000000;
 }
-
 img { 
 	max-width: 100%;
 }
-
 html {
     font-size: 62.5%;
 	color: #FFFFFF;
-	
 	background-color: #000000;
-	height: 100%;
-    
+	height: 100%;    
 }
-
 body {
 	height: 100%;
 }

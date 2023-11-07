@@ -4,4 +4,14 @@
     left: 10%;
     max-width: 40%;
    }
+
+   #backtotop-button {
+      width: 10%;
+  }
+}
+
+@media screen and (min-width: 620px) and (max-width: 709px) {
+   #backtotop-button {
+      width: 8%;
+  }
 }

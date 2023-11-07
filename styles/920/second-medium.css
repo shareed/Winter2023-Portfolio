@@ -4,12 +4,20 @@
         width:65%;
         /* margin-right: 9rem; */
     }
+
+    #backtotop-button {
+        width: 8%;
+    }
 }
 
 @media screen and (min-width: 771px) and (max-width: 855px) {
     .menu-nav {
         width: 60%;
         /* margin-right: 15rem; */
+    }
+
+    #backtotop-button {
+        width: 8%;
     }
 }
 
@@ -19,6 +27,10 @@
         width: 55%;
         /* margin-right: 25rem; */
     }
+
+    #backtotop-button {
+        width: 8%;
+    }
 }
 
 
@@ -27,31 +39,28 @@
     .main-text{
         font-size: 2.5rem;
     }
-
     .my-name, .sologan-text {
         font-size: 4.3rem;
     }
-
-  
+    #backtotop-button {
+        width: 6%;
+    }
 }
 
-@media screen and (min-width: 1071px) and (max-width: 5000px) {
+@media screen and (min-width: 1071px) and (max-width: 2000px) {
     .main-text{
         width: 80%;
         padding-top: 18rem;
         margin-left: 10rem;
     }
-
 }
 
-/* Main content background image---------------------------------------------------- */
 @media screen and (min-width: 657px) and (max-width: 800px) {
     .main-img{
         top: 0;
         left: 22%;
         width: 60%;
     }
-  
 }
 
 @media screen and (min-width:801px) and (max-width: 945px) {
@@ -60,7 +69,6 @@
         left: 18%;
         width: 55%;
     }
-  
 }
 
 @media screen and (min-width: 945px) and (max-width: 1055px) {
@@ -69,7 +77,6 @@
         left: 14%;
         width: 50%;
     }
-  
 }
 
 @media screen and (min-width: 1056px) and (max-width: 1310px) {
@@ -78,6 +85,9 @@
         left: 14%;
         width: 50%;
     }
+    #backtotop-button {
+        width: 5%;
+    }
 }
 
 @media screen and (min-width: 1311px) and (max-width: 1573px) {
@@ -85,6 +95,9 @@
         top: -3%;
         left: 14%;
         width: 50%;
+    }
+    #backtotop-button {
+        width: 5%;
     }
 }
 

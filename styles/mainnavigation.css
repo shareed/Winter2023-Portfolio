@@ -1,4 +1,5 @@
-/* Top Navigation Area, displayed non until 621px */
+/* Main Navigation--------------------------------------------------------------- */
+/*Displayed none until 621px */
 .top-header{
     position: fixed;
     /* top: 2%; */
@@ -14,30 +15,24 @@
     opacity: 80%;
     z-index: 200;
 }
-
 .top-header a{
     text-decoration: none;
 }
-
 .top-header a:hover{
     transform: scale(1.5);
     color: #6031CA;
 }
-
 .menu-nav {
     display: flex;
     justify-content: space-between;
     width: 70%;
     margin-right: 5rem;
 }
-
 .social-nav {
     display: flex;
     justify-content: space-between;
     width: 5%;
-
 }
-
 .active {
     margin-top: -.5rem;
     padding: .5rem;

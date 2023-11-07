@@ -1,6 +1,5 @@
 /* 385px based */
 /* Hamburger menu for mobile-------------------------------------------------------- */
-
 /* open and close menu background */
 .mobile-label .menu {
     position: absolute;
@@ -16,7 +15,6 @@
     box-shadow: 0 0 0 0 #FFFFFF, 0 0 0 0 #FFFFFF;
     cursor: pointer;
 }
-
 /* the hamburger menu icon turns into the "X"/closing icon */
 /* icon to open and close menu: middle line */
 .mobile-label .hamburger {
@@ -32,7 +30,6 @@
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
 }
-
 /* icon to open and close menu, to and bottom lines */
 /* .hamburger:before: top line */
 /* .hamburger:after: bottom line */
@@ -46,61 +43,48 @@
     height: 100%;
     background: #6031CA;
 }
-
 /* icon to open menu: top line position */
 .mobile-label .hamburger:before { 
     top: -10px; 
 }
-
 /* icon to open menu:bottom line position */
 .mobile-label .hamburger:after { 
     bottom: -10px; 
 }
-  
 .mobile-label .mobile-input { 
     display: none; 
 }
-
 /* opened menu */
 .mobile-label .mobile-input:checked + .menu {
     box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
     border-radius: 0;  
 }
-
 /* position of hamburger icon when clicked: middle line will not be moved  */
 .mobile-label .mobile-input:checked + .menu .hamburger {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-
 /* position of "X" icon: bottom line of hamburger menu goes into the same position as middle line  */
 .mobile-label .mobile-input:checked + .menu .hamburger:after {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     bottom: 0;
 }
-
 /* position of "X" icon: top line of hamburger menu  */
 .mobile-label .mobile-input:checked + .menu .hamburger:before{
     -webkit-transform: rotate(190deg);
     transform: rotate(90deg);
     top: 0;
 }
-  
 .mobile-label .mobile-input:checked + .menu + .mobile-menu-nav{ 
     opacity: 1; /* makes the navigation visiable when menu is opened */
     display: block;
 }
-
-
-
-
-/* Mobile Navigation: TOP----------------------------- */
+/* Mobile Navigation: TOP--------------------------------------------------------- */
 .mobile-menu-nav{
     margin: auto;
     width: 95%;
 }
-
 .mobile-label .mobile-menu-nav{
   z-index: 200;
   position: absolute;
@@ -113,7 +97,6 @@
   -webkit-transition: .25s .10s ease-out;   /* makes text visiable/not visiable when menu is clicked */
   transition: .25s .10s ease-out;
 }
-
 .mobile-menu-nav-item {
     border: .1rem solid #6031CA;
     padding: 1em 0;
@@ -127,13 +110,11 @@
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #6031CA;
 }
-
-/* Mobile Bottom Nav Area----------------------------- */
+/* Mobile Bottom Nav Area------------------------------------------------------------- */
 .mobile-label .mobile-input:checked + .menu + .mobile-menu-nav + .mobile-bottom-area{ 
     opacity: 1; /* makes the navigation visiable when menu is opened */
     display: block;
 }
-
 .mobile-label .mobile-bottom-area {
     width: 100%;
     display: flex;
@@ -150,7 +131,6 @@
     -webkit-transition: opacity 300ms ease-in-out 1s;   /* makes text visiable/not visiable when menu is clicked */
     transition: opacity 300ms ease-in-out 1s;
 }
-
 .mobile-headshot img {
     width: 20rem;
     height: 20rem;
@@ -158,7 +138,6 @@
     -webkit-border-radius: 10rem;
     -moz-border-radius: 10rem;
 }
-
 .mobile-headshot::after {
     content: '';
 	position: absolute;
@@ -171,7 +150,6 @@
     -moz-border-radius: 10rem;
     /* box-shadow: inset 0 0 2rem 1px #6031CA; */
 }
-
 .mobile-social-nav{
     display: flex;
     justify-content: space-between;
@@ -179,16 +157,12 @@
     width: 15%;
     margin-left: 6rem;
 }
-
 .mobile-social-nav-item {
     color: #6031CA;
     font-size: 2rem;
 }
-
 .mobile-main{
-
 }
-
 .mobile-img{
     opacity: 20%;
     position: absolute;
@@ -198,19 +172,16 @@
     max-width: 70%;
     padding-left: 20rem;
 }
-
 .mobile-text{
     width: 95%;
     position: relative;
 }
-
 .mobile-top-text{
     padding-left: 3rem;
     padding-top: 15rem;
     margin-bottom: 3rem;
     font-size: 2rem;
 }
-
 .mobile-my-name{
     font-size: 5rem;
     font-family: "Agbalumo";
@@ -219,7 +190,6 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .mobile-sologan-text{
     padding-left: 5rem;
     padding-bottom: 3rem;
@@ -230,8 +200,6 @@
     -webkit-text-fill-color: transparent;
     font-size: 5rem;
 }
-
-
 .mobile-bottom-text{
     padding-left: 5rem;
     font-size: 2rem;
