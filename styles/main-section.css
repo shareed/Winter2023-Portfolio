@@ -58,6 +58,8 @@
     padding-left: 5rem;
     line-height: 1.6;
     width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
@@ -66,7 +68,7 @@
     flex-direction: column;
 }
 
-/* Navigation Sections---------------------------------------------------------------- */
+/* Page Sections---------------------------------------------------------------- */
 section{
     /* height: 100vh; */
     padding-top: 3rem;
@@ -76,16 +78,18 @@ section{
 .skills-section, .contact-section{
     background-image: linear-gradient(#0000, #6031CA, #0000);
 }
+.projects-section {
+    background-image: linear-gradient( #0000, #6031CA, #0000);
+}
 
+/* Skills Section---------------------------------------------------------------------- */
 .skills-section{
     max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: center;
-    
+    text-align: center;   
 }
-
 .hire-me h2{
     text-align: center;
     font-size: 3rem;
@@ -99,16 +103,16 @@ section{
     padding-top: 1rem;
 }
 
-.skills-list{
+.toolbox{
     margin-top: 5rem;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50%;
+    /* height: 90%; */
 }
 
-.skill-card {
+.toolbox-list-card {
     width: 90%;
     height: 30%;
     margin-bottom: 2rem;
@@ -124,14 +128,28 @@ section{
     -moz-transition: all .20s linear;
     transition: all .20s linear;
     cursor: pointer;
-    position: relative;
+    /* position: relative; */
   }
-.skill-card p, .fab{
-    font-size: 2rem;
-  }
-.projects-section {
-    background-image: linear-gradient( #0000, #6031CA, #0000);
+
+.toolbox-list-card figcaption {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
 }
+.toolbox-list-card p{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+.toolbox-img{
+    width: 15%;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
 section h1{
     font-size: 7rem;
 }

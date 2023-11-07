@@ -205,4 +205,6 @@
     font-size: 2rem;
     line-height: 1.6;
     margin-bottom: 10rem;
+    text-align: justify;
+    text-justify: inter-word;
 }
