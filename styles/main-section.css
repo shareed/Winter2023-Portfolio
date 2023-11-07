@@ -21,6 +21,7 @@
     position: relative;
     font-size: 2rem;
     z-index: 100;
+    margin-bottom: 3rem;
 }
 
 .top-text{
@@ -67,21 +68,72 @@
 
 /* Navigation Sections---------------------------------------------------------------- */
 section{
-    
-    height: 100vh;
+    /* height: 100vh; */
+    padding-top: 3rem;
+   
 }
 
 .skills-section, .contact-section{
     background-image: linear-gradient(#0000, #6031CA, #0000);
 }
 
+.skills-section{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.hire-me h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.hire-me p{
+    margin: 0 auto;
+    width: 85%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.skills-list{
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+}
+
+.skill-card {
+    width: 90%;
+    height: 30%;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    background: rgb(18, 5, 48);
+    padding: .8rem .8rem 3rem;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 .4rem .6rem #6031CA;
+    -moz-box-shadow: 0 .4rem .6rem #6031CA;
+    box-shadow: 0 .4rem .6rem #6031CA;
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    cursor: pointer;
+    position: relative;
+  }
+.skill-card p, .fab{
+    font-size: 2rem;
+  }
 .projects-section {
     background-image: linear-gradient( #0000, #6031CA, #0000);
 }
 section h1{
     font-size: 7rem;
-    
-    /* padding-top: 20rem; */
 }
 
 /* Back to top Buttom------------------------------------------------------------- */
