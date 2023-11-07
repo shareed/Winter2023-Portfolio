@@ -1,0 +1,7 @@
+@media screen and (min-width: 441px) and (max-width: 620px) {
+   .mobile-img{
+    top: -1%;
+    left: 10%;
+    max-width: 40%;
+   }
+}
