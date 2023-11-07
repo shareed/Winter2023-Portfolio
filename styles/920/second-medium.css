@@ -38,14 +38,14 @@
 @media screen and (min-width: 1071px) and (max-width: 5000px) {
     .main-text{
         width: 80%;
-        margin-top: 18rem;
+        padding-top: 18rem;
         margin-left: 10rem;
     }
 
 }
 
 /* Main content background image---------------------------------------------------- */
-@media screen and (min-width: 657px) and (max-width: 786px) {
+@media screen and (min-width: 657px) and (max-width: 800px) {
     .main-img{
         top: 0;
         left: 22%;
@@ -54,61 +54,63 @@
   
 }
 
-@media screen and (min-width: 787px) and (max-width: 910px) {
+@media screen and (min-width:801px) and (max-width: 945px) {
     .main-img{
-        top: -18%;
-        width: 70%;
-    }
-  
-}
-
-@media screen and (min-width: 911px) and (max-width: 976px) {
-    .main-img{
-        top: -19%;
-        width: 65%;
-    }
-  
-}
-
-@media screen and (min-width: 977px) and (max-width: 3000px) {
-    .main-img{
-        top: -16%;
+        top: -3%;
+        left: 18%;
         width: 55%;
     }
   
 }
 
-@media screen and (min-width: 1071px) and (max-width: 1255px) {
+@media screen and (min-width: 945px) and (max-width: 1055px) {
     .main-img{
-        top: -40%;
-        width: 65%;
+        top: -3%;
+        left: 14%;
+        width: 50%;
     }
   
 }
 
-@media screen and (min-width: 1256px) and (max-width: 1440px) {
+@media screen and (min-width: 1056px) and (max-width: 1310px) {
     .main-img{
-        top: -35%;
-        width: 70%;
+        top: -3%;
+        left: 14%;
+        width: 60%;
     }
-  
 }
 
-@media screen and (min-width: 1441px) and (max-width: 1690px) {
+@media screen and (min-width: 1311px) and (max-width: 1573px) {
+   .main-img{
+        top: -3%;
+        left: 14%;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1574px) and (max-width: 2000px) {
+    .main-img{
+        top: -3%;
+        left: 14%;
+        width: 40%;
+    }
+}
+
+/* @media screen and (min-width: 1441px) and (max-width: 1690px) {
     .main-img{
         top: -60%;
         width: 55%;
     }
   
-}
+} */
 
-@media screen and (min-width: 1691px) and (max-width: 1980px) {
+/* @media screen and (min-width: 1691px) and (max-width: 1980px) {
     .main-img{
         top: -60%;
         width: 45%;
     }
   
-}
+} */
 
 
 
