@@ -147,6 +147,17 @@ section{
 }
 
 
+/* PROJECTS-------------------------------------------------------------------------- */
+.project{
+    display: flex;
+}
+
+.project-two, .project-four, .project-six{
+    flex-direction: row-reverse;
+}
+
+
+
 
 
 
