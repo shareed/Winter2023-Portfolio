@@ -13,3 +13,5 @@ Nymph Design 2023 Portfolio
 - the transition for the image for the mobile nav
 - change github link
 - add media queries for landscape
+
+
