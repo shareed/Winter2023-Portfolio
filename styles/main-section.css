@@ -1,13 +1,10 @@
 /* Main Section------------------------------------------------------------- */
 /* This section is displayed none until 621px */
 .main-section{
-    /* overflow: hidden; */
     position: relative;
     height: 100vh;
 }
-
 .main-img{
-    /* z-index: 100; */
     opacity: 20%;
     position: absolute;
     left: 10%;
@@ -16,21 +13,18 @@
     height: auto;
     padding-left: 8rem;
 }
-
 .main-text{
     position: relative;
     font-size: 2rem;
     z-index: 100;
     margin-bottom: 3rem;
 }
-
 .top-text{
     padding-top: 23rem;
     padding-left: 3rem;
     margin-bottom: 3rem;
 
 }
-
 .my-name, .sologan-text {
     font-size: 4.5rem;
 }
@@ -41,7 +35,6 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .sologan-text{
     padding-left: 5rem;
     padding-bottom: 3rem;
@@ -52,8 +45,6 @@
     -webkit-text-fill-color: transparent;
    
 }
-
-
 .bottom-text{
     padding-left: 5rem;
     line-height: 1.6;
@@ -61,8 +52,6 @@
     text-align: justify;
     text-justify: inter-word;
 }
-
-
 .buttons{
     display: flex;
     flex-direction: column;
@@ -70,11 +59,8 @@
 
 /* Page Sections---------------------------------------------------------------- */
 section{
-    /* height: 100vh; */
     padding-top: 3rem;
-   
 }
-
 .skills-section, .contact-section{
     background-image: linear-gradient(#0000, #6031CA, #0000);
 }
@@ -88,9 +74,12 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: center;   
+    text-align: center;  
+    padding-bottom: 20rem; 
 }
+
 .hire-me h2{
+    margin-top: 5rem;
     text-align: center;
     font-size: 3rem;
 }
@@ -109,9 +98,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* height: 90%; */
 }
-
 .toolbox-list-card {
     width: 90%;
     height: 30%;
@@ -128,9 +115,7 @@ section{
     -moz-transition: all .20s linear;
     transition: all .20s linear;
     cursor: pointer;
-    /* position: relative; */
-  }
-
+}
 .toolbox-list-card figcaption {
     display: flex;
     flex-wrap: wrap;
@@ -145,8 +130,6 @@ section{
     width: 15%;
     margin-bottom: 3rem;
 }
-
-
 /* PROJECTS-------------------------------------------------------------------------- */
 #projects {
     display: flex;
@@ -168,21 +151,9 @@ section{
 .project-figure{
     display: flex;
     flex-direction: column;
-    
-    /* width: 90%;
-    height: 50%;
-    margin-bottom: 2rem;
-    
-    background: rgb(18, 5, 48);
-    padding: .8rem .8rem 3rem;
-    text-align: center;
-    text-decoration: none;
-    */
 }
 
-.project-info{
-    display: none;
-}
+
 .project-img{
     width: 100%;
     height: 100%;
@@ -196,21 +167,11 @@ section{
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    /* width: 90%; */
-    /* height: 100%; */
 }
-
 .project-figcaption h3 {
     font-weight: bolder;
     margin-bottom: 1rem;
 }
-
-.project-two, .project-four, .project-six{
-    
-}
-
-
-
 /* Contact Section----------------------------------------------------------------- */
 #contact{
     display: flex;
@@ -247,7 +208,6 @@ section{
     -webkit-border-radius: 10rem;
     -moz-border-radius: 10rem;
 }
-
 .social-contact{
     font-size: 1.5rem;
     width: 90%;
@@ -256,7 +216,6 @@ section{
     align-items: center;
     text-align: right;
 }
-
 .social-contact-item{
     color: #6031CA;
     margin-bottom: 1rem;
@@ -277,7 +236,6 @@ section{
     
   }
   
-  #backtotop-button:hover {
+#backtotop-button:hover {
     border: 5px dotted #6031CA;
-  
-  }
+}
