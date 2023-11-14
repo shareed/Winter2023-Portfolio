@@ -1,0 +1,44 @@
+/* Laptop */
+@media screen and (min-width: 1536px) {
+    .top-header{
+        font-size: 1.5rem;
+    }
+    .menu-nav {
+        margin-right: 3rem;
+        width: 30%;
+    }
+    .skills-section{
+        flex-direction: row;
+        height: 100%;
+    }
+    .hire-me h2{
+        font-size: 6rem;
+    }
+    .hire-me p{
+        font-size: 3rem;
+    }
+    .toolbox-list-card {
+        height: 100%;
+    }
+    .project-info{
+        color: black;
+    }
+    .project-two, .project-four, .project-six{
+        flex-direction: row-reverse;
+    }
+    #backtotop-button {
+        width: 3%;
+    }
+}
+
+
+/* BIG MONITOR */
+/* @media screen and (min-width: 1920px) {
+    .top-header{
+        font-size: 1.5rem;
+    }
+    .menu-nav {
+        margin-right: 3rem;
+        width: 30%;
+    }
+} */
