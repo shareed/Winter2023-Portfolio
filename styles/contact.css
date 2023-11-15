@@ -48,3 +48,8 @@
 }
 
 /* Media queries--------------------------------------------------------- */
+@media screen and (min-width: 1920px) {
+    .contact-section{
+        height: 100vh;
+    }
+}

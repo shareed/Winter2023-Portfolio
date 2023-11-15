@@ -67,7 +67,7 @@
 @media screen and (min-width: 1536px) {
     .skills-section{
         flex-direction: row;
-        height: 100%;
+        /* height: 100%; */
     }
     .hire-me h2{
         font-size: 6rem;
@@ -76,7 +76,14 @@
         font-size: 3rem;
     }
     .toolbox-list-card {
-        height: 100%;
+        height: 50%;
     }
 
+}
+
+@media screen and (min-width: 1920px) {
+    .skills-section{
+        padding-top: 15rem;
+        height: 100vh;
+    }
 }

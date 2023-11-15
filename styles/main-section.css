@@ -198,6 +198,16 @@ section{
 }
 
 
+
+@media screen and (min-width: 1920px) {
+    body{
+        margin:0 5rem;
+    }
+    section{
+        padding:0 25rem;
+    }
+}
+
 /* BIG MONITOR */
 /* @media screen and (min-width: 1920px) {
     .top-header{
