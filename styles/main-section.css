@@ -67,158 +67,6 @@ section{
     background-image: linear-gradient( #0000, #6031CA, #0000);
 }
 
-/* Skills Section---------------------------------------------------------------------- */
-.skills-section{
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;  
-    padding-bottom: 20rem; 
-}
-
-.hire-me h2{
-    margin-top: 5rem;
-    text-align: center;
-    font-size: 3rem;
-}
-.hire-me p{
-    margin: 0 auto;
-    width: 85%;
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 2rem;
-    padding-top: 1rem;
-}
-
-.toolbox{
-    margin-top: 5rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.toolbox-list-card {
-    width: 90%;
-    height: 30%;
-    margin-bottom: 2rem;
-    border-radius: 10px;
-    background: rgb(18, 5, 48);
-    padding: .8rem .8rem 3rem;
-    text-align: center;
-    text-decoration: none;
-    -webkit-box-shadow: 0 .4rem .6rem #6031CA;
-    -moz-box-shadow: 0 .4rem .6rem #6031CA;
-    box-shadow: 0 .4rem .6rem #6031CA;
-    -webkit-transition: all .20s linear;
-    -moz-transition: all .20s linear;
-    transition: all .20s linear;
-    cursor: pointer;
-}
-.toolbox-list-card figcaption {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    
-}
-.toolbox-list-card p{
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-.toolbox-img{
-    width: 15%;
-    margin-bottom: 3rem;
-}
-/* PROJECTS-------------------------------------------------------------------------- */
-#projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.project{
-    width: 90%;
-    background-color: #FFF;
-    display: flex;
-    margin-bottom: 2rem;
-    border-radius: 1rem;
-    -webkit-box-shadow: 0 .4rem .6rem #FFF;
-    -moz-box-shadow: 0 .4rem .6rem #FFF;
-    box-shadow: 0 .4rem .6rem #FFF;
-    cursor: pointer; 
-}
-
-.project-figure{
-    display: flex;
-    flex-direction: column;
-}
-
-
-.project-img{
-    width: 100%;
-    height: 100%;
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
-}
-
-.project-figcaption{
-    color: #6031CA;
-    font-size: 2rem;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-}
-.project-figcaption h3 {
-    font-weight: bolder;
-    margin-bottom: 1rem;
-}
-/* Contact Section----------------------------------------------------------------- */
-#contact{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.contact-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #6031CA;
-    width: 90%;
-    background-color: #FFF;
-    display: flex;
-    margin-bottom: 2rem;
-    border-radius: 1rem;
-    -webkit-box-shadow: 0 .4rem .6rem #FFF;
-    -moz-box-shadow: 0 .4rem .6rem #FFF;
-    box-shadow: 0 .4rem .6rem #FFF;
-    cursor: pointer; 
-}
-.contact-card h2 {
-    font-size: 5rem;
-}
-
-.contact-card h3 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-.contact-headshot img{
-    width: 20rem;
-    height: 20rem;
-    border-radius: 10rem;
-    -webkit-border-radius: 10rem;
-    -moz-border-radius: 10rem;
-}
-.social-contact{
-    font-size: 1.5rem;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: right;
-}
-.social-contact-item{
-    color: #6031CA;
-    margin-bottom: 1rem;
-}
 /* Back to top Buttom------------------------------------------------------------- */
 #backtotop-button {
     display: none;
@@ -251,12 +99,7 @@ section{
     .top-header{
         display: none;
     }
-
     .main-section{
-        display: none;
-    }
-
-    .project-info{
         display: none;
     }
 }
@@ -348,25 +191,7 @@ section{
         margin-right: 3rem;
         width: 30%;
     }
-    .skills-section{
-        flex-direction: row;
-        height: 100%;
-    }
-    .hire-me h2{
-        font-size: 6rem;
-    }
-    .hire-me p{
-        font-size: 3rem;
-    }
-    .toolbox-list-card {
-        height: 100%;
-    }
-    .project-info{
-        color: black;
-    }
-    .project-two, .project-four, .project-six{
-        flex-direction: row-reverse;
-    }
+   
     #backtotop-button {
         width: 3%;
     }

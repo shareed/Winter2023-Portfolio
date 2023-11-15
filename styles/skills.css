@@ -1,0 +1,82 @@
+/* Skills Section---------------------------------------------------------------------- */
+.skills-section{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;  
+    padding-bottom: 5rem; 
+}
+
+.hire-me h2{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.hire-me p{
+    margin: 0 auto;
+    width: 85%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.toolbox{
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toolbox-list-card {
+    width: 90%;
+    height: 30%;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    background: rgb(18, 5, 48);
+    padding: .8rem .8rem 3rem;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 .4rem .6rem #6031CA;
+    -moz-box-shadow: 0 .4rem .6rem #6031CA;
+    box-shadow: 0 .4rem .6rem #6031CA;
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    cursor: pointer;
+}
+.toolbox-list-card figcaption {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.toolbox-list-card p{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+.toolbox-img{
+    width: 15%;
+    margin-bottom: 3rem;
+}
+
+
+/* Media queries--------------------------------------------------------- */
+/* Laptop */
+@media screen and (min-width: 1536px) {
+    .skills-section{
+        flex-direction: row;
+        height: 100%;
+    }
+    .hire-me h2{
+        font-size: 6rem;
+    }
+    .hire-me p{
+        font-size: 3rem;
+    }
+    .toolbox-list-card {
+        height: 100%;
+    }
+
+}
