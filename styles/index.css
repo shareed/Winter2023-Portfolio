@@ -1,10 +1,7 @@
-@import url("./620/mainnavigation.css");
-@import url("./320/mobilemenu.css");
-@import url("./320/mobilemainsection.css");
-@import url("./620/main-section.css");
-@import url("./320/smallest.css");
-@import url("./1220/large.css");
-@import url("./1520/xl.css");
-@import url("./1520/xxl.css");
+@import url("./mobilemenu.css");
+@import url("./mobilemainsection.css");
+@import url("./mainnavigation.css");
+@import url("./main-section.css");
+
 
 

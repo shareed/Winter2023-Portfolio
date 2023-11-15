@@ -239,8 +239,13 @@ section{
     border: 5px dotted #6031CA;
 }
 
-/* Media queries */
-
+/* Media queries--------------------------------------------------------- */
+@media screen and (min-width: 441px) and (max-width: 620px) {
+    #backtotop-button {
+       width: 10%;
+   }
+ }
+ 
 /* at 620 and below */
 @media screen and (max-width: 620px) {
     .top-header{
@@ -256,7 +261,7 @@ section{
     }
 }
 
-/* Media queries--------------------------------------------------------- */
+
 @media screen and (min-width: 657px) and (max-width: 1070px) {
     .main-text{
         font-size: 2.5rem;
@@ -268,6 +273,8 @@ section{
         width: 6%;
     }
 }
+
+
 
 
 @media screen and (min-width: 1071px) and (max-width: 2000px) {
@@ -332,7 +339,50 @@ section{
     }
 }
 
+/* Laptop */
+@media screen and (min-width: 1536px) {
+    .top-header{
+        font-size: 1.5rem;
+    }
+    .menu-nav {
+        margin-right: 3rem;
+        width: 30%;
+    }
+    .skills-section{
+        flex-direction: row;
+        height: 100%;
+    }
+    .hire-me h2{
+        font-size: 6rem;
+    }
+    .hire-me p{
+        font-size: 3rem;
+    }
+    .toolbox-list-card {
+        height: 100%;
+    }
+    .project-info{
+        color: black;
+    }
+    .project-two, .project-four, .project-six{
+        flex-direction: row-reverse;
+    }
+    #backtotop-button {
+        width: 3%;
+    }
+}
 
+
+/* BIG MONITOR */
+/* @media screen and (min-width: 1920px) {
+    .top-header{
+        font-size: 1.5rem;
+    }
+    .menu-nav {
+        margin-right: 3rem;
+        width: 30%;
+    }
+} */
 /* @media screen and (min-width: 710px) and (max-width: 770px){
     #backtotop-button {
         width: 8%;
