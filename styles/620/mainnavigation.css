@@ -41,9 +41,28 @@
     color: #FFFFFF;
 }
 
+/* Main Navigation Area------------------------------------------------------------ */
+@media screen and (min-width: 710px) and (max-width: 770px){
+    .menu-nav {
+        width:65%;
+        /* margin-right: 9rem; */
+    }
+}
+
+@media screen and (min-width: 771px) and (max-width: 855px) {
+    .menu-nav {
+        width: 60%;
+        /* margin-right: 15rem; */
+    }
+}
 
 
-
+@media screen and (min-width: 856px) and (max-width: 1000px) {
+    .menu-nav {
+        width: 55%;
+        /* margin-right: 25rem; */
+    }
+}
 
 
 

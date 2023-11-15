@@ -82,7 +82,13 @@
     max-width: 100%;
   }
 
+/* Media queries */
 
+@media screen and (min-width: 621px) {
+  .project-figcaption{
+      display: none;
+  }
+}
   @media(min-width: 600px) {
     .projects-container {
         width: 95%;

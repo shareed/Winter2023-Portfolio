@@ -1,19 +1,17 @@
 # STYLES
 - mobile first design
 - Major breakpoints/media queries
+    - 621px
 
-
-## Mobile Hamburger Menu
-- File: `mobilemenu.css`
-    - Hamburger menu for mobile
-- File: `mob`
-- removed at 621px
-
-## Main Section
-- has two different HTML coed sections, one for mobile(Main Mobile section) and one for all other devices(Main section)
-    - I would like to change this 
+## Mobile Design 
+- Hamburger Menu: `mobilemenu.css`
+    - removed at 621px
+- Mobile Main Section: `mobilemainsection.css`
+    - removed at 621px
 
 ## Main Section
+ - is displayed none until 620px
+
 ## Skills Section
 
 ## Project Section

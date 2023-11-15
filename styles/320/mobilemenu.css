@@ -161,3 +161,10 @@
     color: #6031CA;
     font-size: 2rem;
 }
+
+/* at 621 and above */
+@media screen and (min-width: 621px) {
+    .mobile-display{
+        display: none;
+    }
+}
