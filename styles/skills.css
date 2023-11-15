@@ -1,14 +1,16 @@
 /* Skills Section---------------------------------------------------------------------- */
 .skills-section{
     max-width: 100%;
+
+}
+.skills-section-content{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;  
     padding-bottom: 5rem; 
 }
-
-.hire-me h2{
+.hire-me h3{
     margin-top: 5rem;
     text-align: center;
     font-size: 3rem;
@@ -69,7 +71,7 @@
         flex-direction: row;
         /* height: 100%; */
     }
-    .hire-me h2{
+    .hire-me h3{
         font-size: 6rem;
     }
     .hire-me p{

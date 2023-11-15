@@ -2,13 +2,12 @@
 #projects {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .project{
+  margin: auto;
   width: 90%;
   background: rgb(18, 5, 48);
-  /* background-color: #FFF; */
   display: flex;
   margin-bottom: 2rem;
   border-radius: 1rem;
@@ -77,10 +76,6 @@
 }
 
 
-
-
-
-
 /* Media queries--------------------------------------------------------- */
 @media screen and (max-width: 599px) {
   .project-info{
@@ -98,16 +93,17 @@
 }
 /* Laptop */
 @media screen and (min-width: 1536px) {
-  .project-info{
-      color: black;
-  }
+
   
 }
 
 
 @media screen and (min-width: 1920px) {
-  #projects{
-    /* height: 100vh; */
+  .projects-section{
+    padding-top: 15rem;
     margin-bottom: 3rem;
+  }
+  .project{
+    margin-top: 8rem;
   }
 }

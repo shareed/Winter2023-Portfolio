@@ -50,6 +50,7 @@
 /* Media queries--------------------------------------------------------- */
 @media screen and (min-width: 1920px) {
     .contact-section{
+        padding-top: 15rem;
         height: 100vh;
     }
 }

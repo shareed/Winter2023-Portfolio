@@ -60,6 +60,11 @@
 section{
     padding-top: 3rem;
 }
+section h2{
+   text-align: center;
+    font-size: 4rem;
+
+}
 .skills-section, .contact-section{
     background-image: linear-gradient(#0000, #6031CA, #0000);
 }
@@ -200,12 +205,15 @@ section{
 
 
 @media screen and (min-width: 1920px) {
-    body{
-        margin:0 5rem;
-    }
     section{
+        margin:0 5rem;
         padding:0 25rem;
     }
+    section h2{
+        font-size: 10rem;
+
+    }
+    
 }
 
 /* BIG MONITOR */
