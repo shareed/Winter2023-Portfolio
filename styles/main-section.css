@@ -22,7 +22,6 @@
     padding-top: 23rem;
     padding-left: 3rem;
     margin-bottom: 3rem;
-
 }
 .my-name, .sologan-text {
     font-size: 4.5rem;
@@ -188,7 +187,7 @@ section h2{
 }
 
 /* Laptop */
-@media screen and (min-width: 1536px) {
+/* @media screen and (min-width: 1536px) {
     .top-header{
         font-size: 1.5rem;
     }
@@ -200,23 +199,42 @@ section h2{
     #backtotop-button {
         width: 3%;
     }
-}
+} */
 
 
-
+/* BIG MONITOR */
 @media screen and (min-width: 1920px) {
+    .main-img{
+        left: 50%;
+        top: -4%;
+        width: 35%;
+        height: auto;
+        padding-left: 0;
+    }
+    .main-text{
+        width: 90%;
+        font-size: 3rem;
+    }
+    .top-text{
+        padding-top: 10rem;
+    }
+    .my-name, .sologan-text {
+        font-size: 7.5rem;
+    }
     section{
         margin:0 5rem;
         padding:0 25rem;
     }
     section h2{
-        font-size: 10rem;
-
+        font-size: 6rem;
+    }
+    #backtotop-button {
+        width: 5%;
     }
     
 }
 
-/* BIG MONITOR */
+
 /* @media screen and (min-width: 1920px) {
     .top-header{
         font-size: 1.5rem;

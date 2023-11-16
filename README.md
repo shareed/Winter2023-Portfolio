@@ -14,5 +14,6 @@ Nymph Design 2023 Portfolio
 - THE MOBILE NAVIGATION DOES NOT CLOSE WHEN MENU ITEM IS CLICKED
 - change github link
 - add media queries for landscape
-
+- add button to about me section
+- change skills to about me
 
